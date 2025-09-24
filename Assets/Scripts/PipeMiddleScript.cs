@@ -1,11 +1,9 @@
 using UnityEngine;
 
-public class PipeScript : MonoBehaviour
+public class PipeMiddleScript : MonoBehaviour
 {
     public LogicScript logic;
 
-    public float moveSpeed = 5;
-    public float deadZone = -40;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,15 +13,13 @@ public class PipeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!logic.gameActive)
-        {
-            return;
-        }
-        transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
+        
+    }
 
-        if (transform.position.x < deadZone)
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.layer == 3)
         {
-            Destroy(gameObject);
+            logic.addScore(1);
         }
     }
 }
