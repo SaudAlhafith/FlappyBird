@@ -13,10 +13,10 @@ TagManager:
   - Luffy
   - Water
   - UI
+  - Clouds
+  - parallax
   - background
-  - 
-  - 
-  - 
+  - obstacles
   - 
   - 
   - 
@@ -40,6 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 3038062547
+    locked: 0
+  - name: parallax
+    uniqueID: 3012965895
+    locked: 0
+  - name: obstacles
+    uniqueID: 2189375551
+    locked: 0
+  - name: Clouds
+    uniqueID: 3122164687
+    locked: 0
+  - name: Luffy
+    uniqueID: 3424752505
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
