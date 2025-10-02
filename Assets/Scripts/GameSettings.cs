@@ -19,12 +19,13 @@ public class GameSettings : MonoBehaviour
         public float heightOffset;
         public float xRotationOffset;
         public float birdFlap;
+        public float gapSize; 
     }
 
     [Header("Presets")]
-    public Preset easy = new Preset { winningScore = 10, pipeSpeed = 10f, spawnRate = 3f, heightOffset = 2f, xRotationOffset = 0f, birdFlap = 16f};
-    public Preset medium = new Preset { winningScore = 25, pipeSpeed = 20f, spawnRate = 2f, heightOffset = 5f, xRotationOffset = 10f, birdFlap = 16f};
-    public Preset hard = new Preset { winningScore = 50, pipeSpeed = 30f, spawnRate = 1f, heightOffset = 8f, xRotationOffset = 25f, birdFlap = 16f};
+    public Preset easy = new Preset { winningScore = 10, pipeSpeed = 10f, spawnRate = 3f, heightOffset = 2f, xRotationOffset = 0f, birdFlap = 16f, gapSize = 1.0f};
+    public Preset medium = new Preset { winningScore = 25, pipeSpeed = 20f, spawnRate = 2f, heightOffset = 5f, xRotationOffset = 10f, birdFlap = 16f, gapSize = 0.975f};
+    public Preset hard = new Preset { winningScore = 50, pipeSpeed = 30f, spawnRate = 1f, heightOffset = 8f, xRotationOffset = 25f, birdFlap = 16f, gapSize = 0.95f};
 
     public Preset Current =>
         difficulty == Difficulty.Easy ? easy :

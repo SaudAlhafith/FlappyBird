@@ -6588,23 +6588,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   difficulty: 0
   easy:
+    winningScore: 10
     pipeSpeed: 10
     spawnRate: 3
     heightOffset: 2
     xRotationOffset: 0
     birdFlap: 16
+    gapSize: 1
   medium:
+    winningScore: 25
     pipeSpeed: 20
     spawnRate: 2
     heightOffset: 5
     xRotationOffset: 10
     birdFlap: 16
+    gapSize: 0.95
   hard:
+    winningScore: 50
     pipeSpeed: 30
     spawnRate: 1
     heightOffset: 8
     xRotationOffset: 25
     birdFlap: 16
+    gapSize: 0.9
 --- !u!4 &882730498
 Transform:
   m_ObjectHideFlags: 0
