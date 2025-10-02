@@ -5,8 +5,15 @@ public class BirdScript : MonoBehaviour
     public LogicScript logic;
 
     public Rigidbody2D rb;
-    public float flapStrength;
+    public float flapStrength = 16f;
     
+    void Awake()
+    {
+        if (GameSettings.Instance != null)
+        {
+            flapStrength = GameSettings.Instance.Current.birdFlap;
+        }
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

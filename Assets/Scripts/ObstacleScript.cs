@@ -4,11 +4,15 @@ public class PipeScript : MonoBehaviour
 {
     public LogicScript logic;
 
-    public float moveSpeed = 5;
+    public float moveSpeed = 5f;
     public float deadZone = -40;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (GameSettings.Instance != null)
+        {
+            moveSpeed = GameSettings.Instance.Current.pipeSpeed;
+        }
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 

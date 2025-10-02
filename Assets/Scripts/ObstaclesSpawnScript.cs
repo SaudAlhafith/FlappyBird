@@ -5,10 +5,21 @@ public class ObstaclesSpawnScript : MonoBehaviour
     public LogicScript logic;
     public GameObject obstacle;
 
-    public float spawnRate = 2;
-    public float heightOffset = 7; // Maximum 7
-    public float xRotationOffset = 0; // Maximum 25
+    public float spawnRate = 2f;
+    public float heightOffset = 7f; // Maximum 7
+    public float xRotationOffset = 0f; // Maximum 25
     private float timer = 0;
+
+    void Awake()
+    {
+        if (GameSettings.Instance != null)
+        {
+            spawnRate = GameSettings.Instance.Current.spawnRate;
+            heightOffset = GameSettings.Instance.Current.heightOffset;
+            xRotationOffset = GameSettings.Instance.Current.xRotationOffset;
+        }
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 68d867f8dda6bbe4499e5e17df6d3094
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5878874428557726298
+    second: LaughingBird_0
+  - first:
+      213: 3132900865718769570
+    second: LaughingBird_1
+  - first:
+      213: -4497190960424663571
+    second: LaughingBird_2
+  - first:
+      213: -6590248196926534489
+    second: LaughingBird_3
+  - first:
+      213: -6630646746209250190
+    second: LaughingBird_4
+  - first:
+      213: 3790592526730400072
+    second: LaughingBird_5
+  - first:
+      213: -1874705741127661037
+    second: LaughingBird_6
+  - first:
+      213: 1179322039838460398
+    second: LaughingBird_7
+  - first:
+      213: -7835133032582994896
+    second: LaughingBird_8
+  - first:
+      213: -4857006043199801854
+    second: LaughingBird_9
+  - first:
+      213: -89803346712214805
+    second: LaughingBird_10
+  - first:
+      213: 9072843998673047976
+    second: LaughingBird_11
+  - first:
+      213: -4919747071990783132
+    second: LaughingBird_12
+  - first:
+      213: 6108690499815909124
+    second: LaughingBird_13
+  - first:
+      213: -2932941931395825770
+    second: LaughingBird_14
+  - first:
+      213: 1015564320974177747
+    second: LaughingBird_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaughingBird_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 444
+        width: 136
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a529f492525f59150800000000000000
+      internalID: 5878874428557726298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 669
+        width: 509
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a75ea11dbc4a7b20800000000000000
+      internalID: 3132900865718769570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_2
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 730
+        width: 139
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de54acc06a4c691c0800000000000000
+      internalID: -4497190960424663571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_3
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 496
+        width: 138
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac09887e2cba84a0800000000000000
+      internalID: -6590248196926534489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 503
+        width: 115
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274191d3ae53bf3a0800000000000000
+      internalID: -6630646746209250190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 518
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8411404d1d3ea9430800000000000000
+      internalID: 3790592526730400072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 523
+        width: 112
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a43b1af05bbf5e0800000000000000
+      internalID: -1874705741127661037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 531
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee94c5c952bcd5010800000000000000
+      internalID: 1179322039838460398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_8
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 530
+        width: 41
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03426f8e404044390800000000000000
+      internalID: -7835133032582994896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 521
+        width: 123
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206762bbcb2789cb0800000000000000
+      internalID: -4857006043199801854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 265
+        width: 175
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2c39bf454f0cef0800000000000000
+      internalID: -89803346712214805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 287
+        width: 61
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1117bfb8739ed70800000000000000
+      internalID: 9072843998673047976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_12
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 294
+        width: 157
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463a83d9a1c89bbb0800000000000000
+      internalID: -4919747071990783132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 295
+        width: 150
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407a454f4ad66c450800000000000000
+      internalID: 6108690499815909124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 158
+        width: 643
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fbd405ad81c47d0800000000000000
+      internalID: -2932941931395825770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaughingBird_15
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 141
+        width: 157
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d50a368e52081e00800000000000000
+      internalID: 1015564320974177747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaughingBird_0: 5878874428557726298
+      LaughingBird_1: 3132900865718769570
+      LaughingBird_10: -89803346712214805
+      LaughingBird_11: 9072843998673047976
+      LaughingBird_12: -4919747071990783132
+      LaughingBird_13: 6108690499815909124
+      LaughingBird_14: -2932941931395825770
+      LaughingBird_15: 1015564320974177747
+      LaughingBird_2: -4497190960424663571
+      LaughingBird_3: -6590248196926534489
+      LaughingBird_4: -6630646746209250190
+      LaughingBird_5: 3790592526730400072
+      LaughingBird_6: -1874705741127661037
+      LaughingBird_7: 1179322039838460398
+      LaughingBird_8: -7835133032582994896
+      LaughingBird_9: -4857006043199801854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
