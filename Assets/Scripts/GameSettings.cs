@@ -13,6 +13,7 @@ public class GameSettings : MonoBehaviour
 
     [System.Serializable]
     public struct Preset {
+        public int winningScore;
         public float pipeSpeed;
         public float spawnRate;
         public float heightOffset;
@@ -21,9 +22,9 @@ public class GameSettings : MonoBehaviour
     }
 
     [Header("Presets")]
-    public Preset easy = new Preset { pipeSpeed = 7f, spawnRate = 3f, heightOffset = 2f, xRotationOffset = 0f, birdFlap = 16f};
-    public Preset medium = new Preset { pipeSpeed = 10f, spawnRate = 3.5f, heightOffset = 5f, xRotationOffset = 10f, birdFlap = 16f};
-    public Preset hard = new Preset { pipeSpeed = 12f, spawnRate = 4f, heightOffset = 8f, xRotationOffset = 25f, birdFlap = 16f};
+    public Preset easy = new Preset { winningScore = 10, pipeSpeed = 10f, spawnRate = 3f, heightOffset = 2f, xRotationOffset = 0f, birdFlap = 16f};
+    public Preset medium = new Preset { winningScore = 25, pipeSpeed = 20f, spawnRate = 2f, heightOffset = 5f, xRotationOffset = 10f, birdFlap = 16f};
+    public Preset hard = new Preset { winningScore = 50, pipeSpeed = 30f, spawnRate = 1f, heightOffset = 8f, xRotationOffset = 25f, birdFlap = 16f};
 
     public Preset Current =>
         difficulty == Difficulty.Easy ? easy :

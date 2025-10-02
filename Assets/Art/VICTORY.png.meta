@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 06a1ebf3f43b5404999f472983a3c691
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8628949723677892036
+    second: VICTORY_transparent_1024_0
+  - first:
+      213: -2491967104181881750
+    second: VICTORY_transparent_1024_1
+  - first:
+      213: 3445724059885752623
+    second: VICTORY_transparent_1024_2
+  - first:
+      213: 6637442595387006107
+    second: VICTORY_transparent_1024_3
+  - first:
+      213: -3892852045811601507
+    second: VICTORY_transparent_1024_4
+  - first:
+      213: 9000409555225691919
+    second: VICTORY_transparent_1024_5
+  - first:
+      213: 7216368137287101803
+    second: VICTORY_transparent_1024_6
+  - first:
+      213: 5708751171129037987
+    second: VICTORY_transparent_1024_7
+  - first:
+      213: 8498519062774896883
+    second: VICTORY_transparent_1024_8
+  - first:
+      213: 5164309520160509148
+    second: VICTORY_transparent_1024_9
+  - first:
+      213: -314190621884848725
+    second: VICTORY_transparent_1024_10
+  - first:
+      213: -4984190721256518790
+    second: VICTORY_transparent_1024_11
+  - first:
+      213: 126577167848023157
+    second: VICTORY_transparent_1024_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 379
+        width: 163
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd96883e0030c770800000000000000
+      internalID: 8628949723677892036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 612
+        width: 528
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64b74b2f11ca6dd0800000000000000
+      internalID: -2491967104181881750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 688
+        width: 141
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21d187b6cba1df20800000000000000
+      internalID: 3445724059885752623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 503
+        width: 61
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cd613bfdeec1c50800000000000000
+      internalID: 6637442595387006107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 390
+        width: 51
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f2f3680bfc9f9c0800000000000000
+      internalID: -3892852045811601507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 397
+        width: 120
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f074244edc0e7ec70800000000000000
+      internalID: 9000409555225691919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 410
+        width: 124
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6de17f3690b52460800000000000000
+      internalID: 7216368137287101803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 416
+        width: 133
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4dd32a1fe893f40800000000000000
+      internalID: 5708751171129037987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_8
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 424
+        width: 124
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8559d7f0ec0f570800000000000000
+      internalID: 8498519062774896883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 429
+        width: 135
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcc55b95205ba740800000000000000
+      internalID: 5164309520160509148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_10
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 430
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba56bc64b45c3abf0800000000000000
+      internalID: -314190621884848725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 124
+        width: 654
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b05b642f894dab0800000000000000
+      internalID: -4984190721256518790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VICTORY_transparent_1024_12
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 107
+        width: 163
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574a1467341b1c100800000000000000
+      internalID: 126577167848023157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VICTORY_transparent_1024_0: 8628949723677892036
+      VICTORY_transparent_1024_1: -2491967104181881750
+      VICTORY_transparent_1024_10: -314190621884848725
+      VICTORY_transparent_1024_11: -4984190721256518790
+      VICTORY_transparent_1024_12: 126577167848023157
+      VICTORY_transparent_1024_2: 3445724059885752623
+      VICTORY_transparent_1024_3: 6637442595387006107
+      VICTORY_transparent_1024_4: -3892852045811601507
+      VICTORY_transparent_1024_5: 9000409555225691919
+      VICTORY_transparent_1024_6: 7216368137287101803
+      VICTORY_transparent_1024_7: 5708751171129037987
+      VICTORY_transparent_1024_8: 8498519062774896883
+      VICTORY_transparent_1024_9: 5164309520160509148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

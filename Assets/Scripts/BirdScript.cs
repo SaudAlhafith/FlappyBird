@@ -6,6 +6,8 @@ public class BirdScript : MonoBehaviour
 
     public Rigidbody2D rb;
     public float flapStrength = 16f;
+
+    private float _defaultGravity;
     
     void Awake()
     {
@@ -13,6 +15,7 @@ public class BirdScript : MonoBehaviour
         {
             flapStrength = GameSettings.Instance.Current.birdFlap;
         }
+        _defaultGravity = rb.gravityScale;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,5 +39,18 @@ public class BirdScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         logic.gameOver();
+    }
+
+    public void Freeze(bool on) {
+        if (on) {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.gravityScale = 0f;
+
+            enabled = false;
+        } else {
+            rb.gravityScale = _defaultGravity;
+            enabled = true;
+        }
     }
 }

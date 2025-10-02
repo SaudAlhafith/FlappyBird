@@ -7,8 +7,18 @@ public class StartMenuController : MonoBehaviour
 
     [Header("UI")]
     public TMP_Dropdown difficultyDropdown;
+    public AudioClip startMenuMusic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
+    void Start()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayMusic(startMenuMusic ? startMenuMusic
+                                                           : AudioManager.Instance.defaultMenuMusic, true);
+        }
+    }
+
     public void OnPlayPressed()
     {
         if (GameSettings.Instance != null)

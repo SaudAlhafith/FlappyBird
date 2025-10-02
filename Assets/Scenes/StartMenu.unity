@@ -381,6 +381,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &293052881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293052883}
+  - component: {fileID: 293052882}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &293052882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293052881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21736ad91d413ed439d6c48165eefcc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  defaultMenuMusic: {fileID: 8300000, guid: 1fca007fddc859a4086bd1b572d7d42a, type: 3}
+  defaultGameMusic: {fileID: 8300000, guid: 1fca007fddc859a4086bd1b572d7d42a, type: 3}
+  musicVolume: 0.35
+  sfxVolume: 1
+--- !u!4 &293052883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293052881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1115.288, y: 620.4989, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &322059728
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,10 +689,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.98823535, g: 0.7568628, b: 0.22352943, a: 1}
+    m_HighlightedColor: {r: 0.9176471, g: 0.6313726, b: 0.16470589, a: 1}
+    m_PressedColor: {r: 0.8415094, g: 0.64173114, b: 0.18259154, a: 1}
+    m_SelectedColor: {r: 0.9490197, g: 0.7254902, b: 0.21176472, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -6403,6 +6451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   difficultyDropdown: {fileID: 1690864797}
+  startMenuMusic: {fileID: 0}
 --- !u!4 &800206795
 Transform:
   m_ObjectHideFlags: 0
@@ -6581,7 +6630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989597354}
   m_Layer: 6
-  m_Name: Game Over Screen
+  m_Name: Start Menu Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7449,8 +7498,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4279114278
+  m_fontColor: {r: 0.14901961, g: 0.10196079, b: 0.054901965, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7974,10 +8023,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.9882353, g: 0.75686276, b: 0.22352941, a: 1}
+    m_HighlightedColor: {r: 0.91764706, g: 0.6313726, b: 0.16470589, a: 1}
+    m_PressedColor: {r: 0.84313726, g: 0.6431373, b: 0.18431373, a: 1}
+    m_SelectedColor: {r: 0.9490196, g: 0.7254902, b: 0.21176471, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -8195,7 +8244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.17254902, g: 0.12941177, b: 0.07450981, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8205,7 +8254,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 56
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 82
@@ -8654,3 +8703,4 @@ SceneRoots:
   - {fileID: 673952295}
   - {fileID: 882730498}
   - {fileID: 800206795}
+  - {fileID: 293052883}
