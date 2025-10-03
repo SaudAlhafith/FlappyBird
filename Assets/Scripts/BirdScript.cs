@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BirdScript : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class BirdScript : MonoBehaviour
 
     public Rigidbody2D rb;
     public float flapStrength = 16f;
+    private float _rotationSpeed = 1f;
 
     private float _defaultGravity;
     
@@ -26,7 +28,7 @@ public class BirdScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && logic.gameActive)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Mouse.current.rightButton.wasPressedThisFrame) && logic.gameActive)
         {
             rb.linearVelocity = Vector2.up * flapStrength;
         }
@@ -35,6 +37,10 @@ public class BirdScript : MonoBehaviour
         {
             logic.gameOver();
         }
+    }
+
+    private void FixedUpdate() {
+        transform.rotation = Quaternion.Euler(0, 0, rb.linearVelocity.y * _rotationSpeed);
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {

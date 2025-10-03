@@ -28,4 +28,14 @@ public class StartMenuController : MonoBehaviour
         }
         SceneManager.LoadScene("Game");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+
+        #if UNITY_EDITOR
+        // Makes the Exit button work in the Editor for testing
+            UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+    }
 }
