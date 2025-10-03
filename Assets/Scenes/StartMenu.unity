@@ -6680,7 +6680,7 @@ MonoBehaviour:
     spawnRate: 2
     heightOffset: 5
     xRotationOffset: 10
-    birdFlap: 16
+    birdFlap: 18
     gapSize: 0.95
   hard:
     winningScore: 50
@@ -6688,7 +6688,7 @@ MonoBehaviour:
     spawnRate: 1
     heightOffset: 8
     xRotationOffset: 25
-    birdFlap: 16
+    birdFlap: 20
     gapSize: 0.9
 --- !u!4 &882730498
 Transform:

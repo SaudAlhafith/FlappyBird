@@ -28,7 +28,7 @@ public class BirdScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Mouse.current.rightButton.wasPressedThisFrame) && logic.gameActive)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Mouse.current.leftButton.wasPressedThisFrame) && logic.gameActive)
         {
             rb.linearVelocity = Vector2.up * flapStrength;
         }
